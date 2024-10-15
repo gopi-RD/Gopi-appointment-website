@@ -443,7 +443,7 @@ const FindExpertDoctor=()=>{
     
                                                     </div>
                                                 </div>
-                                                <button className="view-profile-container" onClick={onViewProfile}>
+                                                <button className="view-profile-container">
     
                                                             View Profile
     
