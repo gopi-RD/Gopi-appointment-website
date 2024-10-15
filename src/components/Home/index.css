@@ -1,0 +1,475 @@
+.home-container{
+    min-height: 100vh;
+
+}
+.responsive-container{
+     width:1220px;
+    margin: auto;
+}
+.profile-container{
+    margin-top: 60px;
+}
+.img-top{
+    height:150px;
+    width:100%;
+}
+.profile-info{
+    height: 150px;
+    width: 100%;
+    background-color: #FFF7E2;
+ 
+
+}
+.profile-logo{
+width: 160px;
+height: 160px;
+border-radius: 50%;
+border: 4px solid #FFFFFF;
+position: relative;
+bottom: 20px;
+
+
+}
+.profile-description{
+    margin-left: 23px;
+
+}
+.profile-name-container{
+    display: flex;
+    align-items: center;
+}
+.profile-name{
+font-family: "Poppins";
+font-size: 20px;
+font-weight: 500;
+color: #212529;
+margin-right:10px;
+margin: 0px;
+width: 162px;
+}
+.profile-name-check{
+    width: 23px;
+    height: 23px;
+}
+.profile-role{
+font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+color: #3A643B;
+}
+.rating-container{
+    display: flex;
+    align-items: center;
+}
+.rating{
+font-family: Nunito;
+font-size: 15px;
+font-weight: 600;
+}
+.rating-star{
+    width:20px;
+    height: 22px;
+    margin-right:1px;
+}
+.profile-card-info{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.profile-social-media{
+    margin-left: 60px;
+    display: flex; 
+    align-items: center;
+}
+.social-media-follower{
+    text-align: center;
+    margin-right: 60px;
+}
+.follow-text{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+color: #3A643B;
+margin: 0px;
+}
+.follow-numbers{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+color: #212529;
+}
+.appointment-button{
+border-radius: 8px;
+color: #FFFFFF;
+font-size: 20px;
+font-weight: 500;
+background-color: #3A643B;
+width:274px;
+height:59px;
+margin-left: 110px;
+}
+.page-section-container{
+    background-color: #FFFFFF;
+    padding: 35px 0px 35px 0px;
+    display: flex;
+}
+.page-left-section{
+    margin-right: 35px;
+}
+.about-me-container{
+ width: 628px;
+height: 410px;
+border-radius: 18px;
+background-color: #FFFFFF;
+border: 1px solid #DCDCDC;
+}
+.about-me-title-container{
+    background-image: linear-gradient(270.04deg, #FBFCFB 0.05%, #F4F7EC 99.98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 35px 0px 35px;
+}
+.title{
+font-family: Nunito;
+font-size: 24px;
+font-weight: 600;
+color: #313131;
+
+}
+.follow-button{
+padding: 6px 21px 6px 21px;
+border-radius: 10px;
+background-color: #FFFFFF;
+border: 1px solid #3A643B;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color: #585858;
+
+}
+.about-me-text{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color: #33354880;
+
+}
+.separator-and-read-more{
+    display:flex;
+    align-items: center;
+}
+
+.separeator{
+    border: 0.5px solid #797979;
+    width: 437px;
+
+
+}
+.read-more-link{
+    color: #2B2B2B;
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    outline: none;
+ 
+}
+.about-me-description{
+    padding: 35px 35px 0px 35px;
+
+}
+.language-spoken-container{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.language-spoken-text{
+font-family: Nunito;
+font-size: 20px;
+font-weight: 500;
+color: #000000;
+margin-right: 10px;
+}
+.language{
+padding: 7px 9px 7px 9px;
+border-radius: 16px;
+background-color: #2E37A40A;
+margin-left: 10px;
+
+}
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    padding:35px;
+}
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.specialization-container{
+width: 628px;
+height: 251px;
+border-radius: 18px;
+border: 1px solid #DCDCDC;
+margin-top: 35px;
+}
+.specialization-title{
+padding: 14px 37px 14px 37px;
+border-radius: 15px 18px 0px 0px;
+background-image: linear-gradient(90deg, #F4F7EC 0%, rgba(248, 248, 247, 0.46) 100%);
+}
+.specialization-card-items{
+    background-color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.card-item-container{
+border-radius: 9px;
+margin-right: 15px;
+}
+.card-item{
+padding: 9px 8px 9px 8px;
+border-radius: 9px;
+background-color:#FFFCF2;
+border: 1px solid #EAEAEA;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.card-img{
+width: 78px;
+height: 78px;
+}
+.card-title{
+font-family: Nunito;
+font-size: 16px;
+font-weight: 500;
+color:#000000;
+margin: 0px;
+text-align: center;
+}
+.concerns-treat-container{
+width: 628px;
+height: 222px;
+border-radius: 18px;
+border: 1px solid #DCDCDC;
+margin-top:35px;
+}
+.concerns-treatment-items{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left:35px;
+
+}
+.treatment-item{
+padding: 10px;
+border-radius: 19px;
+background-color: #F7F7FC;
+margin-right: 20px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color: #3A643B;
+margin-bottom: 20px;
+
+}
+.treatment-more-item{
+    padding: 10px;
+    border-radius: 18px;
+    background-color:transparent;
+    border: 1px solid #E0DFDF;
+    margin-bottom: 20px;
+}
+
+.experience-container{
+width: 628px;
+border-radius: 18px;
+border: 1px solid #DCDCDC;
+margin-top: 35px;
+}
+.experience-card-items{
+    padding:35px 35px 0px 35px ;
+}
+.experience-title{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+color: #3A643B;
+padding:0px 35px 35px 0px;
+border-bottom: 1px solid #DCDCDC;
+width:422px;
+}
+.experience-list-items{
+    background-color: #FFFFFF;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.experience-card-item{
+margin-bottom: 20px;
+display: flex;
+}
+.home-image-container{
+width: 48px;
+height: 48px;
+padding: 12px;
+border-radius: 6px;
+background-color: #F7F7FC;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.experience-home-img{
+    width: 24px;
+    height: 24px;
+}
+.experience-description{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 414px;
+
+}
+.experience-description-title{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color: #333548;
+}
+.experience-description-text{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+color:#33354880;
+}
+.woking-date{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+color:#333548B5;
+margin-left: 40px;
+}
+.review-container{
+width: 628px;
+border-radius: 18px;
+border: 1px solid #DCDCDC;
+margin-top: 35px;
+}
+.review-list-items{
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #FFFFFF;
+    padding: 35px 35px 0px 35px;
+}
+.review-card-item{
+padding: 13px 35px 22px 35px;
+border-radius: 17px;
+background-color: #FAFAFA;
+margin-bottom: 35px;
+}
+.review-profile{
+    width: 54px;
+    height: 56px;
+    border-radius: 40px;
+    }
+.review-card-profile{
+    display:flex;
+    justify-content: space-between;
+}
+.review-profile-description-container{
+    display:flex;
+    align-items: center;
+}
+.review-profile-description{
+    margin-left:10px;
+}
+.review-profile-heading{
+font-family: Nunito;
+font-size: 20px;
+font-weight: 600;
+color: #2F2F2F;
+}
+.review-profile-text{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    color: #939393;    
+}
+.review-posted-date{
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+color: #979797;
+}
+.review-rating-container{
+    display:flex;
+    align-items: center;
+}
+.review-rating{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.review-content{
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+color: #2E2F2E;
+
+}
+
+.popup-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.popup-card-container{
+    background-color: #FFFFFF;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.heading{
+    font-family:"Roboto", "Helvetica Neue",;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E2F2E;
+    margin-bottom: 20px;
+}
+
+
+
+.card-container{
+    padding: 40px;
+}
+.cross-container{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+
+}

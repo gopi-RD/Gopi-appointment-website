@@ -1,0 +1,14 @@
+.aboutus-container{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+.description{
+    color: #000;
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 800px;
+    font-family: "Roboto";
+    margin-top: 40px;
+
+}

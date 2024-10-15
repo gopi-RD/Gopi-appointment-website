@@ -1,0 +1,198 @@
+.page-right-section{
+    width: 584px;
+}
+.book-appointment-container{
+border-radius: 29px;
+border: 1px solid #E8E8E8;
+padding: 20px;
+
+}
+.appointment-fee-container{
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 16px 28px 16px 28px;
+
+
+
+}
+.appointment-fee-title{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;    
+}
+.appointment-price{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+color: #3A643B;
+
+}
+
+.select-mode-container-text{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+.select-mode-text{
+font-family:"Roboto";
+font-size: 20px;
+font-weight: 700;
+color: #000000;
+margin-right: 10px;
+}
+.line{
+    border-bottom: 1px solid #D4D4D4;
+    width:232px;
+   
+}
+.select-mode-session-list-items{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.mode-session-item{
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 10px 35px 10px 35px;
+    margin-right: 20px;
+}
+.session-title-container{
+display: flex;
+align-items: center;
+}
+.session-title{
+font-family: Gotham Rounded;
+font-size: 16px;
+font-weight: 600;
+color: #1F1F1F;
+margin: 0px;
+}
+.selected-mode{
+    width: 20px;
+    height: 21px;
+    margin-left: 4px;
+}
+.session-duration{
+font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+color: #606060;
+}
+.time-slot-line{
+    width: 291px;
+    margin-right: 10px;
+}
+.calender-icon{
+width:44px;
+height:43px;
+top: 5px;
+}
+.morning-slot{
+font-family: Nunito;
+font-size: 18px;
+font-weight: 700;
+line-height: 24.55px;
+color: #000000;
+}
+.morning-time-slot-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.morning-time-slot{
+padding: 12.5px;
+border-radius: 22px;
+border: 1px solid #EBEBEB;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+.slot-time{
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 18.15px;
+text-align: center;
+color: #131313;
+}
+.make-appointment-button-container{
+    display: flex;
+    justify-content: center;
+}
+.make-an-appointment-button{
+font-size: 20px;
+font-weight: 500;
+color: #FFFFFF;
+border-radius: 8px;
+background-color: #3A643B;
+padding: 12px 140px 12px 140px;
+
+
+}
+.select-date-container{
+max-width: 530px;
+height: 123px;
+border-radius: 29px;
+border: 1px solid #E8E8E8;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.scroll-left-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15
+    px;
+}
+.scroll-right-icon{
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+.icon-button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.select-card-container{
+    display: flex;
+    align-items: center;
+}
+.select-date-list-items{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.date-item{
+border-radius: 11px;
+border: 0.5px solid #3A643B;
+margin-right: 20px;
+text-align: center;
+width: 123px;
+height: 80px;
+}
+
+.active-session-mode{
+    background-color: #F2FBF2;
+}
+.active-timing{
+    background-color: #3A643B;
+}
+.active-slot{
+    color: #FFFFFF;
+}
+
+.error-msg{
+    color: #FF0000;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
