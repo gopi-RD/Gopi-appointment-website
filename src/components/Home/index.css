@@ -441,21 +441,22 @@ color: #2E2F2E;
     align-items: center;
 }
 .popup-card-container{
-    background-color: #FFFFFF;
     width: 80%;
     max-width: 600px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
     display: flex;
     justify-content:space-between;
     align-items: center;
+    background: #011C24;
+    box-shadow: 0px 0px 32px 16px #63F2FF1A inset;
+    padding: 56px 12px 56px 12px;
+    border-radius: 20px;
 }
 
 .heading{
     font-family:"Roboto", "Helvetica Neue",;
     font-size: 24px;
     font-weight: 600;
-    color: #2E2F2E;
+    color:#FFFFFF;
     margin-bottom: 20px;
 }
 
@@ -463,6 +464,8 @@ color: #2E2F2E;
 
 .card-container{
     padding: 40px;
+    display: flex;
+    align-items: center;
 }
 .cross-container{
     background-color: #000000;

@@ -297,8 +297,11 @@ const onUpdateData=(data,id)=>{
                 <div className="popup-container">
                     <div className="popup-card-container">
                     <div className="card-container">
-                        <h1 className="heading">Booked Your Appointment</h1>
+                        <h1 className="heading">Successfully Booked Your Appointment</h1>
+                        <img src="https://res.cloudinary.com/dzcpsxjuv/image/upload/v1728783297/ffa7rwswmzq4gyugbkjg.png" className="profile-name-check" alt="checked" />
+
                     </div>
+
                     <div className="cross-container" onClick={onCancelPopup}>
                         X
                     </div>

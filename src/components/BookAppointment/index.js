@@ -172,6 +172,7 @@ const BookAppointment=(props)=>{
             setAppointmentList([...appointmentList,newList])
             setIsBooked(true)
             sendDataToHome()
+
         }else{
             alert("Please select all required Fields")
         }
